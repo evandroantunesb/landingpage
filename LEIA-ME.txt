@@ -1,0 +1,41 @@
+RAION CRM — LANDING PAGE
+
+COMO SUBIR
+1. Extraia o ZIP.
+2. Abra a pasta Raion_CRM_Landing_Page.
+3. Envie index.html e a pasta assets juntos para a pasta pública da sua hospedagem.
+4. O index.html deve estar na raiz que será publicada.
+Não exige Node, instalação de pacotes nem comando de build.
+Para uma prévia local, abra index.html no navegador.
+
+ARQUIVOS
+index.html — estrutura, textos e formulário.
+assets/styles.css — aparência e regras responsivas.
+assets/script.js — seleção de plano, controles e validação demonstrativa.
+assets/animation.html — animação original de 30 segundos com controles adaptados.
+assets/raion-logo.png — marca extraída do arquivo fornecido.
+
+CELULAR
+Até 650 px: textos resumidos, cards em uma coluna, botões confortáveis,
+formulário em uma coluna e CNPJ opcional recolhido.
+A animação usa o formato vertical já fornecido quando o player tem até 600 px.
+Os campos têm fonte de 16 px no celular para evitar zoom automático em iPhones.
+A animação inicia manualmente e pausa ao sair da tela.
+
+FORMULÁRIO — ATENÇÃO
+Este pacote é a versão visual aprovada: o formulário NÃO envia nem armazena
+contatos. Ele mostra essa condição de forma explícita. Ainda é necessário
+definir o destino dos leads, ligar o backend, validar os dados no servidor,
+incluir proteção antispam e a política de privacidade antes de captar interessados.
+Nenhum preço ou prazo de lançamento foi presumido.
+
+FONTES E PUBLICAÇÃO
+Manrope e Inter carregam pelo Google Fonts. Se indisponíveis, usa fontes do sistema.
+Todos os demais arquivos necessários estão neste pacote.
+O index.html mantém noindex,nofollow enquanto o formulário é demonstrativo.
+Remova essa meta apenas quando a página estiver pronta para indexação pública.
+
+VERIFICAÇÃO
+Estrutura, referências de arquivos, âncoras e sintaxe JavaScript conferidas.
+Não houve teste visual em navegador/dispositivo neste ambiente. Antes de
+divulgar, confira a página na sua hospedagem e em um celular real.
